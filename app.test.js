@@ -3,7 +3,7 @@ const app = require("./app");
  
 describe("GET /hello", () => {
  
-    test("should return Hello World", async () => {
+    test("should return Hello java", async () => {
  
         const response = await request(app).get("/hello");
  
